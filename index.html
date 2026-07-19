@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>THOTS — Terms of Use</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --ink-soft: #4a4a4a;
+    --ink-faint: #8a8a8a;
+    --paper: #fdfdfc;
+    --rule: #e6e4df;
+    --accent: #000000;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  header {
+    background: #000000;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  header .wordmark {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.32em;
+    color: #ffffff;
+  }
+
+  header .subtitle {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #999999;
+  }
+
+  main {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 56px 28px 100px;
+  }
+
+  .meta {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 36px;
+  }
+
+  .intro {
+    font-size: 17px;
+    color: var(--ink-soft);
+    margin-bottom: 16px;
+  }
+
+  .draft-notice {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: var(--ink-faint);
+    border-left: 2px solid var(--rule);
+    padding-left: 16px;
+    margin: 28px 0 48px;
+  }
+
+  nav.toc {
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 20px 0;
+    margin-bottom: 56px;
+  }
+
+  nav.toc .label {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 12px;
+  }
+
+  nav.toc ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    columns: 2;
+    column-gap: 24px;
+  }
+
+  nav.toc li {
+    margin-bottom: 8px;
+    break-inside: avoid;
+  }
+
+  nav.toc a {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13px;
+    color: var(--ink-soft);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  nav.toc a:hover {
+    border-bottom-color: var(--ink-faint);
+  }
+
+  section {
+    margin-bottom: 44px;
+    scroll-margin-top: 24px;
+  }
+
+  section h2 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink);
+    font-weight: 600;
+    margin: 0 0 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  section h2 .num {
+    color: var(--ink-faint);
+    margin-right: 10px;
+  }
+
+  section p {
+    font-size: 16px;
+    color: var(--ink);
+    margin: 0 0 14px;
+  }
+
+  section ul {
+    margin: 0 0 14px;
+    padding-left: 22px;
+  }
+
+  section li {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  a.inline-link {
+    color: var(--ink);
+  }
+
+  strong.contact {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  footer {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 0 28px 60px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 11px;
+    color: var(--ink-faint);
+    text-align: center;
+  }
+
+  footer a {
+    color: var(--ink-faint);
+  }
+
+  @media (max-width: 480px) {
+    nav.toc ol { columns: 1; }
+    section h2 { font-size: 11px; }
+    section p, section li { font-size: 15px; }
+    .intro { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wordmark">THOTS</div>
+  <div class="subtitle">Terms of Use</div>
+</header>
+
+<main>
+  <div class="meta">Last updated July 19, 2026</div>
+
+  <p class="intro">Please read these Terms of Use ("Terms") carefully before using THOTS (the "App"). By creating an account or using the App, you agree to be bound by these Terms. If you do not agree, do not use the App.</p>
+
+  <div class="draft-notice">
+    This document is a draft provided for convenience and does not constitute legal advice. Consider having it reviewed by a lawyer before publishing, particularly regarding your specific jurisdiction and any local laws that may apply.
+  </div>
+
+  <nav class="toc">
+    <div class="label">Contents</div>
+    <ol>
+      <li><a href="#eligibility">1. Eligibility</a></li>
+      <li><a href="#account">2. Your Account</a></li>
+      <li><a href="#what-thots-is">3. What THOTS Is</a></li>
+      <li><a href="#content">4. Content You Post</a></li>
+      <li><a href="#reporting">5. Reporting and Moderation</a></li>
+      <li><a href="#blocking">6. Blocking</a></li>
+      <li><a href="#privacy">7. Privacy of Actions</a></li>
+      <li><a href="#termination">8. Account Termination</a></li>
+      <li><a href="#disclaimer">9. Disclaimer</a></li>
+      <li><a href="#liability">10. Limitation of Liability</a></li>
+      <li><a href="#changes">11. Changes to These Terms</a></li>
+      <li><a href="#contact">12. Contact</a></li>
+    </ol>
+  </nav>
+
+  <section id="eligibility">
+    <h2><span class="num">01</span>Eligibility</h2>
+    <p>You must be at least 13 years old to use THOTS. If you are under the age of majority in your jurisdiction, you may only use the App with the involvement of a parent or guardian, to the extent required by local law.</p>
+  </section>
+
+  <section id="account">
+    <h2><span class="num">02</span>Your Account</h2>
+    <ul>
+      <li>You may create an account using Sign in with Apple or Google Sign-In.</li>
+      <li>You are responsible for choosing a username that does not impersonate another person, infringe on trademarks, or contain content prohibited under Section 4.</li>
+      <li>You are responsible for all activity that occurs under your account.</li>
+      <li>You may sign out or delete your own posts at any time from within the App.</li>
+    </ul>
+  </section>
+
+  <section id="what-thots-is">
+    <h2><span class="num">03</span>What THOTS Is</h2>
+    <p>THOTS lets you post short text reflections ("thoughts"), read thoughts from other users, and leave comments. Thoughts and comments are limited to 500 characters and plain text only.</p>
+    <p>THOTS does not include private messaging between users. There is no way to contact another user directly through the App, and we intend to keep it that way.</p>
+  </section>
+
+  <section id="content">
+    <h2><span class="num">04</span>Content You Post</h2>
+    <p>You retain ownership of the content you post. By posting, you grant THOTS a non-exclusive, worldwide, royalty-free license to store, display, and distribute that content within the App for as long as it remains posted.</p>
+    <p>You agree not to post content that:</p>
+    <ul>
+      <li>Is threatening, harassing, or intended to incite violence against any person or group</li>
+      <li>Contains hate speech or discriminatory content targeting a protected characteristic (race, ethnicity, religion, national origin, sex, sexual orientation, gender identity, disability, or age)</li>
+      <li>Depicts or promotes self-harm, suicide, or eating disorders in a way intended to encourage others toward those behaviors</li>
+      <li>Is sexually explicit or exploits or endangers minors in any way</li>
+      <li>Contains personally identifiable information about yourself or others (full names, addresses, phone numbers, financial information) without consent</li>
+      <li>Is illegal, defamatory, or infringes on another person's intellectual property or privacy rights</li>
+      <li>Impersonates another person or entity</li>
+      <li>Constitutes spam, advertising, or solicitation unrelated to the App's purpose</li>
+    </ul>
+  </section>
+
+  <section id="reporting">
+    <h2><span class="num">05</span>Reporting and Moderation</h2>
+    <p>Any thought or comment can be reported by any user. Reported content that reaches a threshold of reports is automatically hidden from view pending our review. We aim to review reported content and take action — including removing content and suspending or terminating the accounts of users who violate these Terms — within 24 hours of a report.</p>
+    <p>We reserve the right to remove any content or suspend any account, at our discretion, if we believe it violates these Terms, even without a prior report.</p>
+    <p>If you believe content violates these Terms and reporting through the App is not sufficient, you may also contact us at <strong class="contact">thots.support@gmail.com</strong>.</p>
+  </section>
+
+  <section id="blocking">
+    <h2><span class="num">06</span>Blocking</h2>
+    <p>You may block other users from within the App. Blocking hides that user's content from your own experience. It does not notify the blocked user and does not remove their content for other users.</p>
+  </section>
+
+  <section id="privacy">
+    <h2><span class="num">07</span>Privacy of Actions</h2>
+    <p>Bookmarking a thought or a user, and viewing another user's thoughts, are private actions. THOTS does not notify users when their content has been bookmarked, and does not display who has viewed or saved a user's content to anyone, including that user. We intend to keep it this way.</p>
+  </section>
+
+  <section id="termination">
+    <h2><span class="num">08</span>Account Termination</h2>
+    <p>We may suspend or terminate your account, with or without notice, if we determine you have violated these Terms, engaged in abusive behavior toward other users, or misused the App.</p>
+    <p>You may stop using the App at any time. If you would like your account and associated content deleted entirely, contact us at <strong class="contact">thots.support@gmail.com</strong>.</p>
+  </section>
+
+  <section id="disclaimer">
+    <h2><span class="num">09</span>Disclaimer</h2>
+    <p>THOTS is provided "as is" without warranties of any kind. Content posted by users reflects the views of those users, not of THOTS. THOTS is not a substitute for professional mental health support. If you are in crisis or experiencing thoughts of self-harm, please contact a crisis helpline or emergency services in your area.</p>
+  </section>
+
+  <section id="liability">
+    <h2><span class="num">10</span>Limitation of Liability</h2>
+    <p>To the fullest extent permitted by law, THOTS and its developer(s) are not liable for any indirect, incidental, or consequential damages arising from your use of the App, including content posted by other users.</p>
+  </section>
+
+  <section id="changes">
+    <h2><span class="num">11</span>Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. Continued use of the App after changes take effect constitutes acceptance of the revised Terms.</p>
+  </section>
+
+  <section id="contact">
+    <h2><span class="num">12</span>Contact</h2>
+    <p>Questions about these Terms can be sent to <strong class="contact">thots.support@gmail.com</strong>.</p>
+  </section>
+</main>
+
+<footer>
+  THOTS — <a href="mailto:thots.support@gmail.com">thots.support@gmail.com</a>
+</footer>
+
+</body>
+</html>
